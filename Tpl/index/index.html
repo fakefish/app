@@ -1,0 +1,27 @@
+<html>
+  <head><title>Form Test</title></head>
+  <body>
+  	<form method='post' action="__URL__/insert">
+  		<ul>
+  		  <li>
+  		  	<label for="title">标题：</label>
+  		  	<input name="title" type="text" />
+  		  </li>
+  		  <li>
+  		  	<label for="email">邮箱：</label>
+  		  	<input name="email" type="text" />
+  		  </li>
+  		  <li>
+  		  	<label for="content">内容：</label>
+  		  	<textarea name="content"></textarea>
+  		  </li>
+  		</ul>
+  		<input type="submit" vaule="提交">
+  		<input type="reset" value="清空">
+  	</form>
+  	<volist name="list" id="vo">
+		{$vo.title} <span style="color:gray">[{$vo.email} {$vo.create_time|date='Y-m-d H:i:s',###}]</span>
+		<div class="content">{$vo.content|nl2br}</div>
+	</volist>
+  </body>
+</html>
