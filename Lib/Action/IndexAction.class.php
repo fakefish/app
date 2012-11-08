@@ -8,13 +8,27 @@ class IndexAction extends Action {
     	$this->display();
     }
 
+    public function checkTitle(){
+        if(!empty($_POST['title'])){
+            $Form = M("Form");
+            if($Form->getByTitle($_POST['title'])){
+                $this->error('标题已经存在');
+            } else {
+                $this -> success('标题可以使用!');
+            }
+        } else {
+            $this->error('标题必须！');
+        }
+    }
     public function insert(){
     	$Form = D("Form");
-    	if($Form->create()){
+    	if($vo = $Form->create()){
     		if(false !== $Form->add()){
-    				$this->success('Add Success!');
+    				$vo['create_time'] = date('Y-m-d H:i:s', $vo['create_time']);
+                    $vo['content'] = nl2br($vo['content']);
+                    $this->ajaxReturn($vo, '表单保存成功！',1);
     			} else {
-    				$this->error('Add Error!');
+    				$this->error('添加失败');
     			}
     		} else {
     			header("Content-Type:text/html; charset=utf-8");

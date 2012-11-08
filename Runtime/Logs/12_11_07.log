@@ -1,0 +1,271 @@
+[ 2012-11-07T19:25:33+08:00 ] /php/app/ | INFO: Tag[ app_begin ] --START--
+[ 2012-11-07T19:25:33+08:00 ] /php/app/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.011492s ]
+[ 2012-11-07T19:25:33+08:00 ] /php/app/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.011830s ]
+[ 2012-11-07T19:25:33+08:00 ] /php/app/ | SQL: SHOW COLUMNS FROM `think_form` [ RunTime:0.006068s ]
+[ 2012-11-07T19:25:33+08:00 ] /php/app/ | SQL: SELECT * FROM `think_form` ORDER BY id desc LIMIT 6   [ RunTime:0.007880s ]
+[ 2012-11-07T19:25:33+08:00 ] /php/app/ | INFO: Tag[ view_template ] --START--
+[ 2012-11-07T19:25:33+08:00 ] /php/app/ | INFO: Run LocationTemplate Behavior [ RunTime:0.009868s ]
+[ 2012-11-07T19:25:33+08:00 ] /php/app/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.010087s ]
+[ 2012-11-07T19:25:33+08:00 ] /php/app/ | INFO: Tag[ view_parse ] --START--
+[ 2012-11-07T19:25:33+08:00 ] /php/app/ | INFO: Run ParseTemplate Behavior [ RunTime:0.180956s ]
+[ 2012-11-07T19:25:33+08:00 ] /php/app/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.181200s ]
+[ 2012-11-07T19:25:33+08:00 ] /php/app/ | INFO: Tag[ view_filter ] --START--
+[ 2012-11-07T19:25:33+08:00 ] /php/app/ | INFO: Run ContentReplace Behavior [ RunTime:0.008074s ]
+[ 2012-11-07T19:25:33+08:00 ] /php/app/ | INFO: Run TokenBuild Behavior [ RunTime:0.011355s ]
+[ 2012-11-07T19:25:33+08:00 ] /php/app/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.006872s ]
+[ 2012-11-07T19:25:33+08:00 ] /php/app/ | INFO: Run ShowRuntime Behavior [ RunTime:0.010040s ]
+[ 2012-11-07T19:25:33+08:00 ] /php/app/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.036973s ]
+[ 2012-11-07T19:25:33+08:00 ] /php/app/ | INFO: Tag[ view_end ] --START--
+[ 2012-11-07T19:25:33+08:00 ] /php/app/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.011117s ]
+[ 2012-11-07T19:25:33+08:00 ] /php/app/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.011396s ]
+[ 2012-11-07T19:27:07+08:00 ] /php/app/ | INFO: Tag[ app_begin ] --START--
+[ 2012-11-07T19:27:07+08:00 ] /php/app/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.003162s ]
+[ 2012-11-07T19:27:07+08:00 ] /php/app/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.003538s ]
+[ 2012-11-07T19:27:07+08:00 ] /php/app/ | SQL: SHOW COLUMNS FROM `think_form` [ RunTime:0.007564s ]
+[ 2012-11-07T19:27:07+08:00 ] /php/app/ | SQL: SELECT * FROM `think_form` ORDER BY id desc LIMIT 6   [ RunTime:0.008900s ]
+[ 2012-11-07T19:27:07+08:00 ] /php/app/ | INFO: Tag[ view_template ] --START--
+[ 2012-11-07T19:27:07+08:00 ] /php/app/ | INFO: Run LocationTemplate Behavior [ RunTime:0.004969s ]
+[ 2012-11-07T19:27:07+08:00 ] /php/app/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.005265s ]
+[ 2012-11-07T19:27:07+08:00 ] /php/app/ | INFO: Tag[ view_parse ] --START--
+[ 2012-11-07T19:27:07+08:00 ] /php/app/ | INFO: Run ParseTemplate Behavior [ RunTime:0.073387s ]
+[ 2012-11-07T19:27:07+08:00 ] /php/app/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.073623s ]
+[ 2012-11-07T19:27:07+08:00 ] /php/app/ | INFO: Tag[ view_filter ] --START--
+[ 2012-11-07T19:27:07+08:00 ] /php/app/ | INFO: Run ContentReplace Behavior [ RunTime:0.002335s ]
+[ 2012-11-07T19:27:07+08:00 ] /php/app/ | INFO: Run TokenBuild Behavior [ RunTime:0.003035s ]
+[ 2012-11-07T19:27:07+08:00 ] /php/app/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001974s ]
+[ 2012-11-07T19:27:07+08:00 ] /php/app/ | INFO: Run ShowRuntime Behavior [ RunTime:0.002538s ]
+[ 2012-11-07T19:27:07+08:00 ] /php/app/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.010432s ]
+[ 2012-11-07T19:27:07+08:00 ] /php/app/ | INFO: Tag[ view_end ] --START--
+[ 2012-11-07T19:27:07+08:00 ] /php/app/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.003099s ]
+[ 2012-11-07T19:27:07+08:00 ] /php/app/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.003380s ]
+[ 2012-11-07T19:27:28+08:00 ] /php/app/ | INFO: Tag[ app_begin ] --START--
+[ 2012-11-07T19:27:28+08:00 ] /php/app/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.002671s ]
+[ 2012-11-07T19:27:28+08:00 ] /php/app/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.003001s ]
+[ 2012-11-07T19:27:28+08:00 ] /php/app/ | SQL: SHOW COLUMNS FROM `think_form` [ RunTime:0.006850s ]
+[ 2012-11-07T19:27:28+08:00 ] /php/app/ | SQL: SELECT * FROM `think_form` ORDER BY id desc LIMIT 6   [ RunTime:0.007796s ]
+[ 2012-11-07T19:27:28+08:00 ] /php/app/ | INFO: Tag[ view_template ] --START--
+[ 2012-11-07T19:27:28+08:00 ] /php/app/ | INFO: Run LocationTemplate Behavior [ RunTime:0.003385s ]
+[ 2012-11-07T19:27:28+08:00 ] /php/app/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.003579s ]
+[ 2012-11-07T19:27:28+08:00 ] /php/app/ | INFO: Tag[ view_parse ] --START--
+[ 2012-11-07T19:27:28+08:00 ] /php/app/ | INFO: Run ParseTemplate Behavior [ RunTime:0.059423s ]
+[ 2012-11-07T19:27:28+08:00 ] /php/app/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.059678s ]
+[ 2012-11-07T19:27:28+08:00 ] /php/app/ | INFO: Tag[ view_filter ] --START--
+[ 2012-11-07T19:27:28+08:00 ] /php/app/ | INFO: Run ContentReplace Behavior [ RunTime:0.002260s ]
+[ 2012-11-07T19:27:28+08:00 ] /php/app/ | INFO: Run TokenBuild Behavior [ RunTime:0.002640s ]
+[ 2012-11-07T19:27:28+08:00 ] /php/app/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001820s ]
+[ 2012-11-07T19:27:28+08:00 ] /php/app/ | INFO: Run ShowRuntime Behavior [ RunTime:0.002414s ]
+[ 2012-11-07T19:27:28+08:00 ] /php/app/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.009652s ]
+[ 2012-11-07T19:27:28+08:00 ] /php/app/ | INFO: Tag[ view_end ] --START--
+[ 2012-11-07T19:27:28+08:00 ] /php/app/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.002443s ]
+[ 2012-11-07T19:27:28+08:00 ] /php/app/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.002627s ]
+[ 2012-11-07T19:29:15+08:00 ] /php/app/index.php | INFO: Tag[ app_begin ] --START--
+[ 2012-11-07T19:29:15+08:00 ] /php/app/index.php | INFO: Run ReadHtmlCache Behavior [ RunTime:0.002222s ]
+[ 2012-11-07T19:29:15+08:00 ] /php/app/index.php | INFO: Tag[ app_begin ] --END-- [ RunTime:0.002674s ]
+[ 2012-11-07T19:29:15+08:00 ] /php/app/index.php | SQL: SHOW COLUMNS FROM `think_form` [ RunTime:0.007077s ]
+[ 2012-11-07T19:29:15+08:00 ] /php/app/index.php | SQL: SELECT * FROM `think_form` ORDER BY id desc LIMIT 6   [ RunTime:0.008754s ]
+[ 2012-11-07T19:29:15+08:00 ] /php/app/index.php | INFO: Tag[ view_template ] --START--
+[ 2012-11-07T19:29:15+08:00 ] /php/app/index.php | INFO: Run LocationTemplate Behavior [ RunTime:0.001538s ]
+[ 2012-11-07T19:29:15+08:00 ] /php/app/index.php | INFO: Tag[ view_template ] --END-- [ RunTime:0.001784s ]
+[ 2012-11-07T19:29:15+08:00 ] /php/app/index.php | INFO: Tag[ view_parse ] --START--
+[ 2012-11-07T19:29:15+08:00 ] /php/app/index.php | INFO: Run ParseTemplate Behavior [ RunTime:0.034062s ]
+[ 2012-11-07T19:29:15+08:00 ] /php/app/index.php | INFO: Tag[ view_parse ] --END-- [ RunTime:0.034401s ]
+[ 2012-11-07T19:29:15+08:00 ] /php/app/index.php | INFO: Tag[ view_filter ] --START--
+[ 2012-11-07T19:29:15+08:00 ] /php/app/index.php | INFO: Run ContentReplace Behavior [ RunTime:0.001542s ]
+[ 2012-11-07T19:29:15+08:00 ] /php/app/index.php | INFO: Run TokenBuild Behavior [ RunTime:0.001760s ]
+[ 2012-11-07T19:29:15+08:00 ] /php/app/index.php | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000842s ]
+[ 2012-11-07T19:29:15+08:00 ] /php/app/index.php | INFO: Run ShowRuntime Behavior [ RunTime:0.001280s ]
+[ 2012-11-07T19:29:15+08:00 ] /php/app/index.php | INFO: Tag[ view_filter ] --END-- [ RunTime:0.006094s ]
+[ 2012-11-07T19:29:15+08:00 ] /php/app/index.php | INFO: Tag[ view_end ] --START--
+[ 2012-11-07T19:29:15+08:00 ] /php/app/index.php | INFO: Run ShowPageTrace Behavior [ RunTime:0.001242s ]
+[ 2012-11-07T19:29:15+08:00 ] /php/app/index.php | INFO: Tag[ view_end ] --END-- [ RunTime:0.001428s ]
+[ 2012-11-07T20:44:13+08:00 ] /php/app/index.php | INFO: Tag[ app_begin ] --START--
+[ 2012-11-07T20:44:13+08:00 ] /php/app/index.php | INFO: Run ReadHtmlCache Behavior [ RunTime:0.003112s ]
+[ 2012-11-07T20:44:13+08:00 ] /php/app/index.php | INFO: Tag[ app_begin ] --END-- [ RunTime:0.003435s ]
+[ 2012-11-07T20:44:14+08:00 ] /php/app/index.php | SQL: SHOW COLUMNS FROM `think_form` [ RunTime:0.004926s ]
+[ 2012-11-07T20:44:14+08:00 ] /php/app/index.php | SQL: SELECT * FROM `think_form` ORDER BY id desc LIMIT 6   [ RunTime:0.023477s ]
+[ 2012-11-07T20:44:14+08:00 ] /php/app/index.php | INFO: Tag[ view_template ] --START--
+[ 2012-11-07T20:44:14+08:00 ] /php/app/index.php | INFO: Run LocationTemplate Behavior [ RunTime:0.005031s ]
+[ 2012-11-07T20:44:14+08:00 ] /php/app/index.php | INFO: Tag[ view_template ] --END-- [ RunTime:0.005352s ]
+[ 2012-11-07T20:44:14+08:00 ] /php/app/index.php | INFO: Tag[ view_parse ] --START--
+[ 2012-11-07T20:44:14+08:00 ] /php/app/index.php | INFO: Run ParseTemplate Behavior [ RunTime:0.074980s ]
+[ 2012-11-07T20:44:14+08:00 ] /php/app/index.php | INFO: Tag[ view_parse ] --END-- [ RunTime:0.075323s ]
+[ 2012-11-07T20:44:14+08:00 ] /php/app/index.php | INFO: Tag[ view_filter ] --START--
+[ 2012-11-07T20:44:14+08:00 ] /php/app/index.php | INFO: Run ContentReplace Behavior [ RunTime:0.003404s ]
+[ 2012-11-07T20:44:14+08:00 ] /php/app/index.php | INFO: Run TokenBuild Behavior [ RunTime:0.004379s ]
+[ 2012-11-07T20:44:14+08:00 ] /php/app/index.php | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001824s ]
+[ 2012-11-07T20:44:14+08:00 ] /php/app/index.php | INFO: Run ShowRuntime Behavior [ RunTime:0.003493s ]
+[ 2012-11-07T20:44:14+08:00 ] /php/app/index.php | INFO: Tag[ view_filter ] --END-- [ RunTime:0.014168s ]
+[ 2012-11-07T20:44:14+08:00 ] /php/app/index.php | INFO: Tag[ view_end ] --START--
+[ 2012-11-07T20:44:14+08:00 ] /php/app/index.php | INFO: Run ShowPageTrace Behavior [ RunTime:0.003014s ]
+[ 2012-11-07T20:44:14+08:00 ] /php/app/index.php | INFO: Tag[ view_end ] --END-- [ RunTime:0.003302s ]
+[ 2012-11-07T20:46:34+08:00 ] /php/app/index.php | INFO: Tag[ app_begin ] --START--
+[ 2012-11-07T20:46:34+08:00 ] /php/app/index.php | INFO: Run ReadHtmlCache Behavior [ RunTime:0.003587s ]
+[ 2012-11-07T20:46:34+08:00 ] /php/app/index.php | INFO: Tag[ app_begin ] --END-- [ RunTime:0.004076s ]
+[ 2012-11-07T20:46:34+08:00 ] /php/app/index.php | SQL: SHOW COLUMNS FROM `think_form` [ RunTime:0.011655s ]
+[ 2012-11-07T20:46:34+08:00 ] /php/app/index.php | SQL: SELECT * FROM `think_form` ORDER BY id desc LIMIT 6   [ RunTime:0.036547s ]
+[ 2012-11-07T20:46:34+08:00 ] /php/app/index.php | INFO: Tag[ view_template ] --START--
+[ 2012-11-07T20:46:34+08:00 ] /php/app/index.php | INFO: Run LocationTemplate Behavior [ RunTime:0.005761s ]
+[ 2012-11-07T20:46:34+08:00 ] /php/app/index.php | INFO: Tag[ view_template ] --END-- [ RunTime:0.006098s ]
+[ 2012-11-07T20:46:34+08:00 ] /php/app/index.php | INFO: Tag[ view_parse ] --START--
+[ 2012-11-07T20:46:34+08:00 ] /php/app/index.php | INFO: Run ParseTemplate Behavior [ RunTime:0.068132s ]
+[ 2012-11-07T20:46:34+08:00 ] /php/app/index.php | INFO: Tag[ view_parse ] --END-- [ RunTime:0.068465s ]
+[ 2012-11-07T20:46:34+08:00 ] /php/app/index.php | INFO: Tag[ view_filter ] --START--
+[ 2012-11-07T20:46:34+08:00 ] /php/app/index.php | INFO: Run ContentReplace Behavior [ RunTime:0.003243s ]
+[ 2012-11-07T20:46:34+08:00 ] /php/app/index.php | INFO: Run TokenBuild Behavior [ RunTime:0.010357s ]
+[ 2012-11-07T20:46:34+08:00 ] /php/app/index.php | INFO: Run WriteHtmlCache Behavior [ RunTime:0.002832s ]
+[ 2012-11-07T20:46:34+08:00 ] /php/app/index.php | INFO: Run ShowRuntime Behavior [ RunTime:0.003378s ]
+[ 2012-11-07T20:46:34+08:00 ] /php/app/index.php | INFO: Tag[ view_filter ] --END-- [ RunTime:0.020693s ]
+[ 2012-11-07T20:46:34+08:00 ] /php/app/index.php | INFO: Tag[ view_end ] --START--
+[ 2012-11-07T20:46:34+08:00 ] /php/app/index.php | INFO: Run ShowPageTrace Behavior [ RunTime:0.007309s ]
+[ 2012-11-07T20:46:34+08:00 ] /php/app/index.php | INFO: Tag[ view_end ] --END-- [ RunTime:0.007635s ]
+[ 2012-11-07T20:46:45+08:00 ] /php/app/index.php?s=/Index/checkTitle | ERR: (ThinkException) 非法操作checkTitle
+[ 2012-11-07T20:46:46+08:00 ] /php/app/index.php?s=/Index/checkTitle | ERR: (ThinkException) 非法操作checkTitle
+[ 2012-11-07T20:46:46+08:00 ] /php/app/index.php?s=/Index/checkTitle | ERR: (ThinkException) 非法操作checkTitle
+[ 2012-11-07T20:46:46+08:00 ] /php/app/index.php?s=/Index/checkTitle | ERR: (ThinkException) 非法操作checkTitle
+[ 2012-11-07T20:48:30+08:00 ] /php/app/index.php | INFO: Tag[ app_begin ] --START--
+[ 2012-11-07T20:48:30+08:00 ] /php/app/index.php | INFO: Run ReadHtmlCache Behavior [ RunTime:0.003115s ]
+[ 2012-11-07T20:48:30+08:00 ] /php/app/index.php | INFO: Tag[ app_begin ] --END-- [ RunTime:0.003524s ]
+[ 2012-11-07T20:48:31+08:00 ] /php/app/index.php | SQL: SHOW COLUMNS FROM `think_form` [ RunTime:0.006443s ]
+[ 2012-11-07T20:48:31+08:00 ] /php/app/index.php | SQL: SELECT * FROM `think_form` ORDER BY id desc LIMIT 6   [ RunTime:0.021522s ]
+[ 2012-11-07T20:48:31+08:00 ] /php/app/index.php | INFO: Tag[ view_template ] --START--
+[ 2012-11-07T20:48:31+08:00 ] /php/app/index.php | INFO: Run LocationTemplate Behavior [ RunTime:0.004444s ]
+[ 2012-11-07T20:48:31+08:00 ] /php/app/index.php | INFO: Tag[ view_template ] --END-- [ RunTime:0.004810s ]
+[ 2012-11-07T20:48:31+08:00 ] /php/app/index.php | INFO: Tag[ view_parse ] --START--
+[ 2012-11-07T20:48:31+08:00 ] /php/app/index.php | INFO: Run ParseTemplate Behavior [ RunTime:0.068550s ]
+[ 2012-11-07T20:48:31+08:00 ] /php/app/index.php | INFO: Tag[ view_parse ] --END-- [ RunTime:0.068905s ]
+[ 2012-11-07T20:48:31+08:00 ] /php/app/index.php | INFO: Tag[ view_filter ] --START--
+[ 2012-11-07T20:48:31+08:00 ] /php/app/index.php | INFO: Run ContentReplace Behavior [ RunTime:0.002910s ]
+[ 2012-11-07T20:48:31+08:00 ] /php/app/index.php | INFO: Run TokenBuild Behavior [ RunTime:0.002341s ]
+[ 2012-11-07T20:48:31+08:00 ] /php/app/index.php | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001793s ]
+[ 2012-11-07T20:48:31+08:00 ] /php/app/index.php | INFO: Run ShowRuntime Behavior [ RunTime:0.002607s ]
+[ 2012-11-07T20:48:31+08:00 ] /php/app/index.php | INFO: Tag[ view_filter ] --END-- [ RunTime:0.010254s ]
+[ 2012-11-07T20:48:31+08:00 ] /php/app/index.php | INFO: Tag[ view_end ] --START--
+[ 2012-11-07T20:48:31+08:00 ] /php/app/index.php | INFO: Run ShowPageTrace Behavior [ RunTime:0.002547s ]
+[ 2012-11-07T20:48:31+08:00 ] /php/app/index.php | INFO: Tag[ view_end ] --END-- [ RunTime:0.002736s ]
+[ 2012-11-07T20:49:16+08:00 ] /php/app/index.php | INFO: Tag[ app_begin ] --START--
+[ 2012-11-07T20:49:16+08:00 ] /php/app/index.php | INFO: Run ReadHtmlCache Behavior [ RunTime:0.004916s ]
+[ 2012-11-07T20:49:16+08:00 ] /php/app/index.php | INFO: Tag[ app_begin ] --END-- [ RunTime:0.005424s ]
+[ 2012-11-07T20:49:16+08:00 ] /php/app/index.php | SQL: SHOW COLUMNS FROM `think_form` [ RunTime:0.006678s ]
+[ 2012-11-07T20:49:16+08:00 ] /php/app/index.php | SQL: SELECT * FROM `think_form` ORDER BY id desc LIMIT 5   [ RunTime:0.044033s ]
+[ 2012-11-07T20:49:16+08:00 ] /php/app/index.php | INFO: Tag[ view_template ] --START--
+[ 2012-11-07T20:49:16+08:00 ] /php/app/index.php | INFO: Run LocationTemplate Behavior [ RunTime:0.006438s ]
+[ 2012-11-07T20:49:16+08:00 ] /php/app/index.php | INFO: Tag[ view_template ] --END-- [ RunTime:0.006771s ]
+[ 2012-11-07T20:49:16+08:00 ] /php/app/index.php | INFO: Tag[ view_parse ] --START--
+[ 2012-11-07T20:49:16+08:00 ] /php/app/index.php | INFO: Run ParseTemplate Behavior [ RunTime:0.053480s ]
+[ 2012-11-07T20:49:16+08:00 ] /php/app/index.php | INFO: Tag[ view_parse ] --END-- [ RunTime:0.053800s ]
+[ 2012-11-07T20:49:16+08:00 ] /php/app/index.php | INFO: Tag[ view_filter ] --START--
+[ 2012-11-07T20:49:16+08:00 ] /php/app/index.php | INFO: Run ContentReplace Behavior [ RunTime:0.003439s ]
+[ 2012-11-07T20:49:16+08:00 ] /php/app/index.php | INFO: Run TokenBuild Behavior [ RunTime:0.003599s ]
+[ 2012-11-07T20:49:16+08:00 ] /php/app/index.php | INFO: Run WriteHtmlCache Behavior [ RunTime:0.003206s ]
+[ 2012-11-07T20:49:16+08:00 ] /php/app/index.php | INFO: Run ShowRuntime Behavior [ RunTime:0.003683s ]
+[ 2012-11-07T20:49:16+08:00 ] /php/app/index.php | INFO: Tag[ view_filter ] --END-- [ RunTime:0.014800s ]
+[ 2012-11-07T20:49:16+08:00 ] /php/app/index.php | INFO: Tag[ view_end ] --START--
+[ 2012-11-07T20:49:16+08:00 ] /php/app/index.php | INFO: Run ShowPageTrace Behavior [ RunTime:0.003638s ]
+[ 2012-11-07T20:49:16+08:00 ] /php/app/index.php | INFO: Tag[ view_end ] --END-- [ RunTime:0.003934s ]
+[ 2012-11-07T20:50:07+08:00 ] /php/app/index.php | INFO: Tag[ app_begin ] --START--
+[ 2012-11-07T20:50:07+08:00 ] /php/app/index.php | INFO: Run ReadHtmlCache Behavior [ RunTime:0.003976s ]
+[ 2012-11-07T20:50:07+08:00 ] /php/app/index.php | INFO: Tag[ app_begin ] --END-- [ RunTime:0.004518s ]
+[ 2012-11-07T20:50:07+08:00 ] /php/app/index.php | SQL: SHOW COLUMNS FROM `think_form` [ RunTime:0.004798s ]
+[ 2012-11-07T20:50:07+08:00 ] /php/app/index.php | SQL: SELECT * FROM `think_form` ORDER BY id desc LIMIT 6   [ RunTime:0.025717s ]
+[ 2012-11-07T20:50:07+08:00 ] /php/app/index.php | INFO: Tag[ view_template ] --START--
+[ 2012-11-07T20:50:07+08:00 ] /php/app/index.php | INFO: Run LocationTemplate Behavior [ RunTime:0.005343s ]
+[ 2012-11-07T20:50:07+08:00 ] /php/app/index.php | INFO: Tag[ view_template ] --END-- [ RunTime:0.005675s ]
+[ 2012-11-07T20:50:07+08:00 ] /php/app/index.php | INFO: Tag[ view_parse ] --START--
+[ 2012-11-07T20:50:07+08:00 ] /php/app/index.php | INFO: Run ParseTemplate Behavior [ RunTime:0.049230s ]
+[ 2012-11-07T20:50:07+08:00 ] /php/app/index.php | INFO: Tag[ view_parse ] --END-- [ RunTime:0.049561s ]
+[ 2012-11-07T20:50:07+08:00 ] /php/app/index.php | INFO: Tag[ view_filter ] --START--
+[ 2012-11-07T20:50:07+08:00 ] /php/app/index.php | INFO: Run ContentReplace Behavior [ RunTime:0.003502s ]
+[ 2012-11-07T20:50:07+08:00 ] /php/app/index.php | INFO: Run TokenBuild Behavior [ RunTime:0.003495s ]
+[ 2012-11-07T20:50:07+08:00 ] /php/app/index.php | INFO: Run WriteHtmlCache Behavior [ RunTime:0.003169s ]
+[ 2012-11-07T20:50:07+08:00 ] /php/app/index.php | INFO: Run ShowRuntime Behavior [ RunTime:0.003833s ]
+[ 2012-11-07T20:50:07+08:00 ] /php/app/index.php | INFO: Tag[ view_filter ] --END-- [ RunTime:0.014984s ]
+[ 2012-11-07T20:50:07+08:00 ] /php/app/index.php | INFO: Tag[ view_end ] --START--
+[ 2012-11-07T20:50:07+08:00 ] /php/app/index.php | INFO: Run ShowPageTrace Behavior [ RunTime:0.003705s ]
+[ 2012-11-07T20:50:07+08:00 ] /php/app/index.php | INFO: Tag[ view_end ] --END-- [ RunTime:0.004194s ]
+[ 2012-11-07T20:55:19+08:00 ] /php/app/index.php | INFO: Tag[ app_begin ] --START--
+[ 2012-11-07T20:55:19+08:00 ] /php/app/index.php | INFO: Run ReadHtmlCache Behavior [ RunTime:0.004741s ]
+[ 2012-11-07T20:55:19+08:00 ] /php/app/index.php | INFO: Tag[ app_begin ] --END-- [ RunTime:0.005269s ]
+[ 2012-11-07T20:55:19+08:00 ] /php/app/index.php | SQL: SHOW COLUMNS FROM `think_form` [ RunTime:0.006116s ]
+[ 2012-11-07T20:55:19+08:00 ] /php/app/index.php | SQL: SELECT * FROM `think_form` ORDER BY id desc LIMIT 6   [ RunTime:0.024114s ]
+[ 2012-11-07T20:55:19+08:00 ] /php/app/index.php | INFO: Tag[ view_template ] --START--
+[ 2012-11-07T20:55:19+08:00 ] /php/app/index.php | INFO: Run LocationTemplate Behavior [ RunTime:0.004971s ]
+[ 2012-11-07T20:55:19+08:00 ] /php/app/index.php | INFO: Tag[ view_template ] --END-- [ RunTime:0.005280s ]
+[ 2012-11-07T20:55:19+08:00 ] /php/app/index.php | INFO: Tag[ view_parse ] --START--
+[ 2012-11-07T20:55:19+08:00 ] /php/app/index.php | INFO: Run ParseTemplate Behavior [ RunTime:0.051669s ]
+[ 2012-11-07T20:55:19+08:00 ] /php/app/index.php | INFO: Tag[ view_parse ] --END-- [ RunTime:0.052002s ]
+[ 2012-11-07T20:55:19+08:00 ] /php/app/index.php | INFO: Tag[ view_filter ] --START--
+[ 2012-11-07T20:55:19+08:00 ] /php/app/index.php | INFO: Run ContentReplace Behavior [ RunTime:0.003344s ]
+[ 2012-11-07T20:55:19+08:00 ] /php/app/index.php | INFO: Run TokenBuild Behavior [ RunTime:0.003799s ]
+[ 2012-11-07T20:55:19+08:00 ] /php/app/index.php | INFO: Run WriteHtmlCache Behavior [ RunTime:0.002962s ]
+[ 2012-11-07T20:55:19+08:00 ] /php/app/index.php | INFO: Run ShowRuntime Behavior [ RunTime:0.003553s ]
+[ 2012-11-07T20:55:19+08:00 ] /php/app/index.php | INFO: Tag[ view_filter ] --END-- [ RunTime:0.014568s ]
+[ 2012-11-07T20:55:19+08:00 ] /php/app/index.php | INFO: Tag[ view_end ] --START--
+[ 2012-11-07T20:55:19+08:00 ] /php/app/index.php | INFO: Run ShowPageTrace Behavior [ RunTime:0.005456s ]
+[ 2012-11-07T20:55:19+08:00 ] /php/app/index.php | INFO: Tag[ view_end ] --END-- [ RunTime:0.005849s ]
+[ 2012-11-07T20:55:48+08:00 ] /php/app/index.php | INFO: Tag[ app_begin ] --START--
+[ 2012-11-07T20:55:48+08:00 ] /php/app/index.php | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001679s ]
+[ 2012-11-07T20:55:48+08:00 ] /php/app/index.php | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001990s ]
+[ 2012-11-07T20:55:48+08:00 ] /php/app/index.php | SQL: SHOW COLUMNS FROM `think_form` [ RunTime:0.005236s ]
+[ 2012-11-07T20:55:48+08:00 ] /php/app/index.php | SQL: SELECT * FROM `think_form` ORDER BY id desc LIMIT 6   [ RunTime:0.023968s ]
+[ 2012-11-07T20:55:48+08:00 ] /php/app/index.php | INFO: Tag[ view_template ] --START--
+[ 2012-11-07T20:55:48+08:00 ] /php/app/index.php | INFO: Run LocationTemplate Behavior [ RunTime:0.001631s ]
+[ 2012-11-07T20:55:48+08:00 ] /php/app/index.php | INFO: Tag[ view_template ] --END-- [ RunTime:0.001948s ]
+[ 2012-11-07T20:55:48+08:00 ] /php/app/index.php | INFO: Tag[ view_parse ] --START--
+[ 2012-11-07T20:55:48+08:00 ] /php/app/index.php | INFO: Run ParseTemplate Behavior [ RunTime:0.035637s ]
+[ 2012-11-07T20:55:48+08:00 ] /php/app/index.php | INFO: Tag[ view_parse ] --END-- [ RunTime:0.035929s ]
+[ 2012-11-07T20:55:48+08:00 ] /php/app/index.php | INFO: Tag[ view_filter ] --START--
+[ 2012-11-07T20:55:48+08:00 ] /php/app/index.php | INFO: Run ContentReplace Behavior [ RunTime:0.001004s ]
+[ 2012-11-07T20:55:48+08:00 ] /php/app/index.php | INFO: Run TokenBuild Behavior [ RunTime:0.001167s ]
+[ 2012-11-07T20:55:48+08:00 ] /php/app/index.php | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000612s ]
+[ 2012-11-07T20:55:48+08:00 ] /php/app/index.php | INFO: Run ShowRuntime Behavior [ RunTime:0.001171s ]
+[ 2012-11-07T20:55:48+08:00 ] /php/app/index.php | INFO: Tag[ view_filter ] --END-- [ RunTime:0.004484s ]
+[ 2012-11-07T20:55:48+08:00 ] /php/app/index.php | INFO: Tag[ view_end ] --START--
+[ 2012-11-07T20:55:48+08:00 ] /php/app/index.php | INFO: Run ShowPageTrace Behavior [ RunTime:0.001137s ]
+[ 2012-11-07T20:55:48+08:00 ] /php/app/index.php | INFO: Tag[ view_end ] --END-- [ RunTime:0.001316s ]
+[ 2012-11-07T20:56:04+08:00 ] /php/app/index.php?s=/Index/checkTitle | ERR: (ThinkException) 非法操作checkTitle
+[ 2012-11-07T20:56:05+08:00 ] /php/app/index.php?s=/Index/checkTitle | ERR: (ThinkException) 非法操作checkTitle
+[ 2012-11-07T20:56:05+08:00 ] /php/app/index.php?s=/Index/checkTitle | ERR: (ThinkException) 非法操作checkTitle
+[ 2012-11-07T20:56:06+08:00 ] /php/app/index.php?s=/Index/checkTitle | ERR: (ThinkException) 非法操作checkTitle
+[ 2012-11-07T20:56:07+08:00 ] /php/app/index.php?s=/Index/checkTitle | ERR: (ThinkException) 非法操作checkTitle
+[ 2012-11-07T20:56:07+08:00 ] /php/app/index.php?s=/Index/checkTitle | ERR: (ThinkException) 非法操作checkTitle
+[ 2012-11-07T20:56:46+08:00 ] /php/app/index.php | INFO: Tag[ app_begin ] --START--
+[ 2012-11-07T20:56:46+08:00 ] /php/app/index.php | INFO: Run ReadHtmlCache Behavior [ RunTime:0.002137s ]
+[ 2012-11-07T20:56:46+08:00 ] /php/app/index.php | INFO: Tag[ app_begin ] --END-- [ RunTime:0.002596s ]
+[ 2012-11-07T20:56:47+08:00 ] /php/app/index.php | SQL: SHOW COLUMNS FROM `think_form` [ RunTime:0.005048s ]
+[ 2012-11-07T20:56:47+08:00 ] /php/app/index.php | SQL: SELECT * FROM `think_form` ORDER BY id desc LIMIT 6   [ RunTime:0.023743s ]
+[ 2012-11-07T20:56:47+08:00 ] /php/app/index.php | INFO: Tag[ view_template ] --START--
+[ 2012-11-07T20:56:47+08:00 ] /php/app/index.php | INFO: Run LocationTemplate Behavior [ RunTime:0.001075s ]
+[ 2012-11-07T20:56:47+08:00 ] /php/app/index.php | INFO: Tag[ view_template ] --END-- [ RunTime:0.001260s ]
+[ 2012-11-07T20:56:47+08:00 ] /php/app/index.php | INFO: Tag[ view_parse ] --START--
+[ 2012-11-07T20:56:47+08:00 ] /php/app/index.php | INFO: Run ParseTemplate Behavior [ RunTime:0.036966s ]
+[ 2012-11-07T20:56:47+08:00 ] /php/app/index.php | INFO: Tag[ view_parse ] --END-- [ RunTime:0.037313s ]
+[ 2012-11-07T20:56:47+08:00 ] /php/app/index.php | INFO: Tag[ view_filter ] --START--
+[ 2012-11-07T20:56:47+08:00 ] /php/app/index.php | INFO: Run ContentReplace Behavior [ RunTime:0.001047s ]
+[ 2012-11-07T20:56:47+08:00 ] /php/app/index.php | INFO: Run TokenBuild Behavior [ RunTime:0.001123s ]
+[ 2012-11-07T20:56:47+08:00 ] /php/app/index.php | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000609s ]
+[ 2012-11-07T20:56:47+08:00 ] /php/app/index.php | INFO: Run ShowRuntime Behavior [ RunTime:0.001177s ]
+[ 2012-11-07T20:56:47+08:00 ] /php/app/index.php | INFO: Tag[ view_filter ] --END-- [ RunTime:0.004451s ]
+[ 2012-11-07T20:56:47+08:00 ] /php/app/index.php | INFO: Tag[ view_end ] --START--
+[ 2012-11-07T20:56:47+08:00 ] /php/app/index.php | INFO: Run ShowPageTrace Behavior [ RunTime:0.001441s ]
+[ 2012-11-07T20:56:47+08:00 ] /php/app/index.php | INFO: Tag[ view_end ] --END-- [ RunTime:0.001670s ]
+[ 2012-11-07T20:57:50+08:00 ] /php/app/index.php?s=/Index/checkTitle | ERR: (ThinkException) 非法操作checkTitle
+[ 2012-11-07T21:24:07+08:00 ] /php/app/index.php | INFO: Tag[ app_begin ] --START--
+[ 2012-11-07T21:24:07+08:00 ] /php/app/index.php | INFO: Run ReadHtmlCache Behavior [ RunTime:0.003514s ]
+[ 2012-11-07T21:24:07+08:00 ] /php/app/index.php | INFO: Tag[ app_begin ] --END-- [ RunTime:0.003910s ]
+[ 2012-11-07T21:24:07+08:00 ] /php/app/index.php | SQL: SHOW COLUMNS FROM `think_form` [ RunTime:0.007298s ]
+[ 2012-11-07T21:24:08+08:00 ] /php/app/index.php | SQL: SELECT * FROM `think_form` ORDER BY id desc LIMIT 6   [ RunTime:0.023111s ]
+[ 2012-11-07T21:24:08+08:00 ] /php/app/index.php | INFO: Tag[ view_template ] --START--
+[ 2012-11-07T21:24:08+08:00 ] /php/app/index.php | INFO: Run LocationTemplate Behavior [ RunTime:0.004381s ]
+[ 2012-11-07T21:24:08+08:00 ] /php/app/index.php | INFO: Tag[ view_template ] --END-- [ RunTime:0.004669s ]
+[ 2012-11-07T21:24:08+08:00 ] /php/app/index.php | INFO: Tag[ view_parse ] --START--
+[ 2012-11-07T21:24:08+08:00 ] /php/app/index.php | INFO: Run ParseTemplate Behavior [ RunTime:0.068512s ]
+[ 2012-11-07T21:24:08+08:00 ] /php/app/index.php | INFO: Tag[ view_parse ] --END-- [ RunTime:0.068768s ]
+[ 2012-11-07T21:24:08+08:00 ] /php/app/index.php | INFO: Tag[ view_filter ] --START--
+[ 2012-11-07T21:24:08+08:00 ] /php/app/index.php | INFO: Run ContentReplace Behavior [ RunTime:0.002391s ]
+[ 2012-11-07T21:24:08+08:00 ] /php/app/index.php | INFO: Run TokenBuild Behavior [ RunTime:0.002918s ]
+[ 2012-11-07T21:24:08+08:00 ] /php/app/index.php | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001990s ]
+[ 2012-11-07T21:24:08+08:00 ] /php/app/index.php | INFO: Run ShowRuntime Behavior [ RunTime:0.003603s ]
+[ 2012-11-07T21:24:08+08:00 ] /php/app/index.php | INFO: Tag[ view_filter ] --END-- [ RunTime:0.011589s ]
+[ 2012-11-07T21:24:08+08:00 ] /php/app/index.php | INFO: Tag[ view_end ] --START--
+[ 2012-11-07T21:24:08+08:00 ] /php/app/index.php | INFO: Run ShowPageTrace Behavior [ RunTime:0.003478s ]
+[ 2012-11-07T21:24:08+08:00 ] /php/app/index.php | INFO: Tag[ view_end ] --END-- [ RunTime:0.003751s ]
