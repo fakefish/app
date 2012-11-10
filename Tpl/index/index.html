@@ -70,9 +70,11 @@
                     <td></td>
                     <td><hr></td>
                 </tr>
+
                 <tr>
                     <td></td>
                     <td> <div id="list" >
+                            <div>{$page}</div>
                             <volist name="list" id="vo">
                                 <div class="result" style='font-weight:normal;<eq name="mod" value="1">background:#ECECFF</eq>'><div style="border-bottom:1px dotted silver">{$vo.title}  [{$vo.email} {$vo.create_time|date='Y-m-d H:i:s',###}]</div>
                                     <div class="content">{$vo.content|nl2br}</div>
@@ -81,9 +83,11 @@
                         </div>
                     </td>
                 </tr>
+
                 
             </table>
         </form>
     </div>
+
 </body>
 </html>

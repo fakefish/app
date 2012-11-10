@@ -9,5 +9,6 @@ return array(
     'DB_PWD'=>'root',
     'DB_PORT'=>'',
     'DB_PREFIX'=>'think_',
+    'VAR_PAGE' => 'p'
 );
 ?>

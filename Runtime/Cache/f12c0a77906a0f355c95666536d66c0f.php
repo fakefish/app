@@ -70,18 +70,22 @@
                     <td></td>
                     <td><hr></td>
                 </tr>
+
                 <tr>
                     <td></td>
                     <td> <div id="list" >
+                            <div><?php echo ($page); ?></div>
                             <?php if(is_array($list)): $i = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><div class="result" style='font-weight:normal;<?php if(($mod) == "1"): ?>background:#ECECFF<?php endif; ?>'><div style="border-bottom:1px dotted silver"><?php echo ($vo["title"]); ?>  [<?php echo ($vo["email"]); ?> <?php echo (date('Y-m-d H:i:s',$vo["create_time"])); ?>]</div>
                                     <div class="content"><?php echo (nl2br($vo["content"])); ?></div>
                                 </div><?php endforeach; endif; else: echo "" ;endif; ?>
                         </div>
                     </td>
                 </tr>
+
                 
             </table>
         </form>
     </div>
+
 </body>
 </html>
