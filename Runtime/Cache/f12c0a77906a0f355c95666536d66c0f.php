@@ -2,89 +2,49 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-        <title>ThinkPHP示例：Ajax表单提交</title>
+        <title>ThinkPHP示例</title>
     <link rel="stylesheet" type="text/css" href="__PUBLIC__/Css/common.css" />
-    <script type="text/javascript" src="__PUBLIC__/Js/Jquery/jquery.js"></script>
-    <script type="text/javascript" src="__PUBLIC__/Js/Jquery/jquery.form.js"></script>
+    
+    <script type="text/javascript" src="__PUBLIC__/Js/Base.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/Js/prototype.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/Js/mootools.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/Js/Ajax/ThinkAjax.js"></script>
 </head>
 <body>
     <script language="JavaScript">
-    $(function(){
-        $("#form1").ajaxForm({
-            beforeSubmit: checkForm,
-            success:      complete,
-            dataType:     'json'
-        });
-        function checkForm(){
-            if( '' == $.trim($('#title').val())){
-                $('#result').html('标题不能为空').show();
-                return false;
-            }
+    
+    function add(){
+        window.location.href="__URL__/add";
+    }
+    function edit(id){
+        window.location.href="__URL__/edit/id/"+id;
+    }
+    function del(id){
+        ThinkAjax.send('__URL__/delete','ajax=1&id='+id,complete,'result');
+        window.setTimeout(function (){window.location.href='__URL__',20000});
+    }
+    function complete(data, status){
+        if(status==1){
+            $('list').removeChild($('div_'+data));
         }
-        function complete(data){
-            if(data.status==1){
-                $('#result').html(data.info).show();
-                data = data.data;
-                var html = '<div class = "result" style=\'font-weight:normal;background:#A6FF4d\'><div style="border-bottom:1px dotted silver"> ' 
-                        +data.title
-                        +'['+data.email + data.create_time
-                        +'] </div><div class="content">'
-                        +data.content
-                        +'</div></div>';
-                $('#list').prepend(html);
-            }else{
-                $('#result').html(data.info).show();
-            }
-        }
-    });
-    function checkTitle(){
-        $.post('__URL__/checkTitle',{'title':$('#title').val()},
-              function(data){
-                $('#result').html(data.info).show();
-              },'json');
     }
     </script>
     <div class="main">
-        <form id="form1" method='post' action="__URL__/insert">
-            <table cellpadding=2 cellspacing=2>
-                <tr>
-                    <td colspan="2"><div id="result" class="none result" style="font-family:微软雅黑,Tahoma;letter-spacing:2px"></div></td>
-                </tr>
-                <tr>
-                    <td class="tRight" width="12%">标题：</td>
-                    <td class="tLeft" ><input type="text" name="title" id="title" style="height:23px" class="large bLeft"><input type="button" value="检 查" class="small button" onClick="checkTitle()"></td>
-                </tr>
-                <tr>
-                    <td class="tRight" >邮箱：</td>
-                    <td class="tLeft" ><input type="text" name="email" id="email" style="height:23px" class="huge bLeft"></td>
-                </tr>
-                <tr>
-                    <td class="tRight tTop" >内容：</td>
-                    <td><textarea name="content" id="content" class="huge bLeft" rows="8" cols="25"></textarea></td>
-                </tr>
-                <tr>
-                    <td><input type="hidden" name="ajax" value="1"></td>
-                    <td><input type="submit"  class="button" value="提 交"> <input type="reset" class="button" value="清 空"></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td><hr></td>
-                </tr>
 
-                <tr>
-                    <td></td>
-                    <td> <div id="list" >
-                            <div><?php echo ($page); ?></div>
-                            <?php if(is_array($list)): $i = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><div class="result" style='font-weight:normal;<?php if(($mod) == "1"): ?>background:#ECECFF<?php endif; ?>'><div style="border-bottom:1px dotted silver"><?php echo ($vo["title"]); ?>  [<?php echo ($vo["email"]); ?> <?php echo (date('Y-m-d H:i:s',$vo["create_time"])); ?>]</div>
-                                    <div class="content"><?php echo (nl2br($vo["content"])); ?></div>
-                                </div><?php endforeach; endif; else: echo "" ;endif; ?>
-                        </div>
-                    </td>
-                </tr>
-
-                
-            </table>
-        </form>
+        <input type="button" value="新增" onClick="add()">
+        <div id="result"></div>
+        <div id="list">
+            <?php if(is_array($list)): $i = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><div id="div_<?php echo ($vo["id"]); ?>"></div>
+                <div >
+                    <?php echo ($vo["title"]); ?> [<?php echo ($vo["email"]); ?> <?php echo (date('Y-m-d H:i:s',$vo["create_time"])); ?>]
+                    <br />
+                    <?php echo ($vo["content"]); ?>
+                    <br />
+                    <input type="button" value="编辑" onClick="edit(<?php echo ($vo["id"]); ?>)">
+                    <input type="button" value="删除" onClick="del(<?php echo ($vo["id"]); ?>)">
+                </div><?php endforeach; endif; else: echo "" ;endif; ?>
+            <div><?php echo ($page); ?></div>
+        </div>
     </div>
 
 </body>

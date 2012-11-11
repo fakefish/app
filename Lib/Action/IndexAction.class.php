@@ -32,6 +32,7 @@ class IndexAction extends Action {
     }
     public function insert(){
     	$Form = D("Form");
+
     	if($vo = $Form->create()){
     		if(false !== $Form->add()){
     				$vo['create_time'] = date('Y-m-d H:i:s', $vo['create_time']);
@@ -45,7 +46,47 @@ class IndexAction extends Action {
     			exit($Form->getError() . '[ <a href="javascript:history.back()">返 回</a> ]');
     		}
     }
+    public function update(){
+        $Form = D("Form");
+        if($vo = $Form->create()){
+            $list = $Form->save();
+            if($list !== false){
+                $this->success('数据更新成功!');
+            } else {
+                $this->error('没有更新任何数据！');
+            }
+        } else {
+            $this->error($Form->getError());
+        }
+    }
+    public function delete(){
+        if(!empty($_POST['id'])){
+            $Form = M("Form");
+            $result = $Form->delete($_POST['id']);
 
+            if(false !== $result){
+                $this->ajaxReturn($_POST['id'],'删除成功',1);
+            } else {
+                $this->error('删除出错！');
+            }
+        } else {
+            $this->error('删除项不存在！');
+        }
+    }
+    public function edit(){
+        if(!empty($_GET['id'])){
+            $Form = M("Form");
+            $vo = $Form->getById($_GET['id']);
+            if($vo){
+                $this->assign('vo',$vo);
+                $this->display();
+            }else{
+                exit('编辑项不存在！');
+            }
+        }else{
+            exit('编辑项不存在！');
+        }
+    }
 
 }
 ?>
